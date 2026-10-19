@@ -1,0 +1,3 @@
+// Server-only: access to the Cloudflare D1 database bound as `DB` in wrangler.toml.
+import {env} from 'cloudflare:workers';
+// ... (весь остальной код) ...
